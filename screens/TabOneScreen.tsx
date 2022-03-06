@@ -5,34 +5,63 @@ import { Text, View } from '../components/Themed';
 import Colors from '../constants/Colors';
 import { RootTabScreenProps } from '../types';
 
+
 export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
   return (
     <View style={{
     flex: 1,
     height: '100%',
     width: '100%',
-    backgroundColor: '#46686e',
+    backgroundColor: '#114B5F',
     justifyContent: 'center',
     alignItems: 'center',
     }}>
 
-<Image source = {{uri:'https://www.gifcen.com/wp-content/uploads/2021/08/laptop-1.gif'}} 
+    
+
+<Image source = {{uri:'https://pic.pimg.tw/lilimetooyou/1533459662-1635329285.gif'}} 
 
   style = {{ 
   marginLeft: 10,
-  marginTop: 50,
+  marginTop: 30,
   width: 245, 
   height: 285, }}
   />
+
+<View style={{
+    height: 75,
+    width: 325,
+    backgroundColor: '#114B5F',
+    marginLeft: 45,
+    }}>
+      <Text style={{
+        
+          marginTop: -293,
+          fontFamily: 'Tahoma',
+          fontWeight: 'bold',
+          fontSize: 13.5,
+          color: '#fff'
+      }}>Sign Up</Text>
+
+<Image source = {{uri:'https://o.remove.bg/downloads/fcefb65a-6678-44ef-b02a-1607ae77720a/334-3347596_register-icon-white-close-icon-white-png-removebg-preview.png'}} 
+
+  style = {{ 
+  marginLeft: -30,
+  marginTop: -19,
+  width: 25, 
+  height: 20, }}
+/>
+      </View>
+
     <View style={{
     
     height: 60,
     width: 355,
-    backgroundColor: '#2eceb9',
+    backgroundColor: '#00917C',
     borderWidth: 0.75,
-    borderColor: "#AFAFAE",
+    borderColor: "#FFF",
     borderRadius: 1,
-    marginTop: -15,
+    marginTop: -95,
     
     }}>
     
@@ -41,6 +70,7 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
       marginTop: 10,
       fontFamily: 'Tahoma',
       fontSize: 25,
+      fontWeight: 'bold',
       
       }}>THE CAT CODERS</Text>
       <Text style={{
@@ -48,35 +78,47 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
       marginTop: -3.5,
       fontFamily: 'Tahoma',
       fontSize: 12,
+      fontStyle: 'italic',
       
-      }}>The Real World IT Solutions for
-      Real World Developers</Text>
+      }}>"The Real World IT Solutions for
+      Real World Developers"</Text>
       </View>
 
     <View style={{
-    height: 55,
-    width: 145,
-    backgroundColor: '#46686e',
-    marginTop: 15,
-    marginLeft: -10
+    height: 75,
+    width: 325,
+    backgroundColor: '#114B5F',
+    marginTop: 45,
+    marginLeft: 170,
     }}>
       <Text style={{
-          marginRight: -58,
-          marginTop: 12,
+          marginTop: -25,
           fontFamily: 'Tahoma',
-          fontSize: 32,
+          fontSize: 28.5,
+          fontWeight: 'bold',
           color: '#fff'
       }}>USER LOGIN</Text>
       </View>
 
+      <Image source = {{uri:'https://o.remove.bg/downloads/58d3d784-1ee8-4e26-910e-feeb04293654/3999550-middle-removebg-preview.png'}} 
+
+    style = {{ 
+    marginLeft: 5,
+    marginTop: -60,
+    width: 195, 
+    height: 100,
+    
+    }}
+    />  
+
       <View style={{
     height: 65,
     width: 320,
-    backgroundColor: '#46686e',
-    borderWidth: 0.75,
-    borderColor: "#AFAFAE",
+    backgroundColor: '#cac4ba',
+    borderWidth: .95,
+    borderColor: "#F4F6F7",
     borderRadius: 10,
-    marginTop: 30,
+    marginTop: -15,
     marginLeft: 5 
     }}>
 
@@ -87,7 +129,7 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
     marginTop: 28,
     width: 25, 
     height: 28,
-
+  
     }}
     />  
 
@@ -105,9 +147,9 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
     <View style={{
     height: 65,
     width: 320,
-    backgroundColor: '#46686e',
-    borderWidth: 0.75,
-    borderColor: "#AFAFAE",
+    backgroundColor: '#cac4ba',
+    borderWidth: .95,
+    borderColor: "#F4F6F7",
     borderRadius: 10,
     marginTop: 15,
     marginLeft: 5
@@ -132,11 +174,23 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
       }}
       /> 
 
+      <Image source = {{uri:'https://o.remove.bg/downloads/5129996b-2447-4f87-ba3d-1861b9ccff15/png-transparent-graphy-birdseye-view-angle-photography-trademark-removebg-preview.png'}} 
+
+      style = {{ 
+      marginRight: -270,
+      marginTop: -32,
+      width: 30, 
+      height: 18,
+      }}
+      /> 
+      
+
       <Text style={{
-          marginTop: 18,
+          marginTop: 28,
           marginLeft: -225,
           fontFamily: 'Tahoma',
           fontSize: 13,
+          color: '#ffff',
           textDecorationLine: 'underline'
       }}>Remember me</Text>
 
@@ -145,47 +199,31 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
           marginLeft: 217,
           fontFamily: 'Tahoma',
           fontSize: 13,
+          color: '#ffff',
           textDecorationLine: 'underline'
       }}>Forgot Password?</Text>
 
+      
+
     <View style={{
     height: 55,
-    width: 155,
-    backgroundColor: '#56C596',
-    borderWidth: 0.75,
-    borderColor: "#AFAFAE",
+    width: 325,
+    backgroundColor: '#1A936F',
+    borderWidth: 1.75,
+    borderColor: "#F4F6F7",
     borderRadius: 10,
-    marginTop: 40,
-    marginLeft: -165
+    marginTop: 20,
+    marginLeft: -1
     }}>
       <Text style={{
-          marginLeft: 50,
+          alignSelf: 'center',
           marginTop: 12,
           fontFamily: 'Tahoma',
-          fontSize: 18,
+          fontSize: 21.25,
+          fontWeight: 'bold',
       }}>LOG IN</Text>
       </View>
 
-    <View style={{
-    height: 55,
-    width: 155,
-    backgroundColor: '#EC9488',
-    borderWidth: 0.75,
-    borderColor: "#AFAFAE",
-    borderRadius: 10,
-    marginTop: -55,
-    marginLeft: 170
-    }}>
-      <Text style={{
-          marginLeft: 40,
-          marginTop: 12,
-          fontFamily: 'Tahoma',
-          fontSize: 18,
-      }}>REGISTER</Text>
-      </View>
-
-
-      
     </View>
 
   );
