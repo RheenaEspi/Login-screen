@@ -26,7 +26,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.jrparreno.activity3"
+      "package": "com.loginscreen.thecodersgroup"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
