@@ -23,9 +23,9 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
 
   style = {{ 
   marginLeft: 10,
-  marginTop: 30,
-  width: 245, 
-  height: 285, }}
+  marginTop: -45,
+  width: 205, 
+  height: 235, }}
   />
 
 <View style={{
@@ -36,7 +36,7 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
     }}>
       <Text style={{
         
-          marginTop: -293,
+          marginTop: -240,
           fontFamily: 'Tahoma',
           fontWeight: 'bold',
           fontSize: 13.5,
